@@ -24,6 +24,7 @@ while True:
         else:
             print('Enter only (S/W/G)')
             continue
+
     if computer == user:
         result = 'Match Draw'
     elif user == -1:
@@ -59,4 +60,5 @@ while True:
     if again.lower() == 'n':
         print('Game End...')
         break
+
 print(f'\nGame Played: {game_played} \nWin:{user_win_count} \nLose: {user_lose_count} \nMatch Draw = {match_draw_count}')
